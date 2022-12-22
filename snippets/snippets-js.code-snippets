@@ -1,0 +1,9 @@
+{
+	"Console log To String": {
+		"prefix": "log-string",
+		"body": [
+			"console.log(JSON.parse(JSON.stringify($0)))"
+		],
+		"description": "Console log to string"
+	}
+}

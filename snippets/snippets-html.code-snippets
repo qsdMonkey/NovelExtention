@@ -1,0 +1,260 @@
+{
+	"Card": {
+		"prefix": "c-card",
+		"body": [
+			"<c-card>",
+			"  <c-card-header> </c-card-header>",
+			"  <c-card-body>",
+			"    $0",
+			"  </c-card-body>",
+		  	"</c-card>"
+		],
+		"description": "Card CoreUI"
+	},
+	"Alert": {
+		"prefix": "c-alert",
+		"body": [
+			"<c-alert color=\"primary\">$0</c-alert>"
+		],
+		"description": "Alert CoreUI"
+	},
+	"Avatar": {
+		"prefix": "c-avatar",
+		"body": [
+			"<c-avatar src=\"assets/img/$0\"></c-avatar>"
+		],
+		"description": "Avatar CoreUI"
+	},
+	"Badge": {
+		"prefix": "c-badge",
+		"body": [
+			"<c-badge color=\"primary\">$0</c-badge>"
+		],
+		"description": "Badge CoreUI"
+	},
+	"Button": {
+		"prefix": "c-button",
+		"body": [
+			"<button cButton color=\"primary\">$0</button>"
+		],
+		"description": "Button CoreUI"
+	},
+	"Button Groug": {
+		"prefix": "c-button-group",
+		"body": [
+			"<c-button-group aria-label=\"Basic example\" role=\"group\">",
+			"  <button cButton color=\"primary\">Left</button>",
+			"  <button cButton color=\"primary\">Middle</button>",
+			"  <button cButton color=\"primary\">Right$0</button>",
+		  	"</c-button-group>"
+		],
+		"description": "Button Groug CoreUI"
+	},
+	"Callout": {
+		"prefix": "c-callout",
+		"body": [
+			"<c-callout color=\"primary\">$0</c-callout>"
+		],
+		"description": "Callout CoreUI"
+	},
+	"Close button": {
+		"prefix": "c-close-button",
+		"body": [
+			"<button cButtonClose></button>$0"
+		],
+		"description": "Close boutton CoreUI"
+	},
+	"Drop Down": {
+		"prefix": "c-dropDown",
+		"body": [
+			"<c-dropdown>",
+			"  <a cButton cDropdownToggle color=\"secondary\" [routerLink]=\"[]\">",
+			"    Dropdown button",
+			"  </a>",
+			"  <ul cDropdownMenu>",
+			"    <li><a [routerLink]=\"[]\" cDropdownItem>Action</a></li>",
+			"    <li><a [routerLink]=\"[]\" cDropdownItem>Another action</a></li>",
+			"    <li><a [routerLink]=\"[]\" cDropdownItem>Something else here</a></li>",
+			"  </ul>",
+		  	"</c-dropdown>$0"
+		],
+		"description": "Drop Down CoreUI"
+	},
+	"Image": {
+		"prefix": "c-image",
+		"body": [
+			"<img cImg height=\"200\" rounded src=\"assets/img/angular400.jpg\" thumbnail width=\"200\" />"
+		],
+		"description": "Image CoreUI"
+	},
+	"List Group": {
+		"prefix": "c-listgroup",
+		"body": [
+			"<ul cListGroup>",
+			"  <li cListGroupItem>$0</li>",
+			"</ul>"
+		],
+		"description": "List Group CoreUI"
+	},
+	"Nav": {
+		"prefix": "c-nav-item",
+		"body": [
+			"<c-nav>",
+			"  <c-nav-item>",
+			"    <a [routerLink] cNavLink>$0</a>",
+			"  </c-nav-item>",
+		  	"</c-nav>"
+		],
+		"description": "Nav CoreUI"
+	},
+	"NavBar": {
+		"prefix": "c-navbar",
+		"body": [
+			"<c-navbar class=\"bg-light\" colorScheme=\"light\">",
+			"  <c-container fluid>",
+			"    <c-navbar-text>$0</c-navbar-text>",
+			"  </c-container>",
+		  	"</c-navbar>"
+		],
+		"description": "NavBar CoreUI"
+	},
+	"Spinner": {
+		"prefix": "c-spinner",
+		"body": [
+			"<c-spinner></c-spinner>$0"
+		],
+		"description": "Spinner CoreUI"
+	},
+	"Table": {
+		"prefix": "c-table",
+		"body": [
+			"<table cTable>",
+			"  <thead>",
+			"    <tr>",
+			"      <th scope=\"col\">Class</th>",
+			"      <th scope=\"col\">Heading</th>",
+			"      <th scope=\"col\">Heading</th>",
+			"    </tr>",
+			"  </thead>",
+			"  <tbody>",
+			"    <tr>",
+			"      <th scope=\"row\">Default</th>",
+			"      <td>Cell</td>",
+			"      <td>Cell</td>",
+			"    </tr>",
+			"  </tbody>",
+			"</table>$0"
+		],
+		"description": "Table CoreUI"
+	},
+	"Tabs": {
+		"prefix": "c-tabs",
+		"body": [
+			"<c-nav variant=\"underline\">",
+			"  <c-nav-item>",
+			"    <a [active]=\"true\" [cTabContent]=\"tabContent\" [routerLink] [tabPaneIdx]=\"0\" cNavLink>",
+			"      Home",
+			"    </a>",
+			"  </c-nav-item>",
+		  	"</c-nav>",
+		  	"<c-tab-content #tabContent=\"cTabContent\" [activeTabPaneIdx]=\"1\">",
+			"  <c-tab-pane class=\"p-3\">",
+			"    0$",
+			"  </c-tab-pane>",
+		  	"</c-tab-content>"
+		],
+		"description": "Tabs CoreUI"
+	},
+	"Tool Tips": {
+		"prefix": "c-tool-tip",
+		"body": [
+			"<button cButton cTooltip=\"$2\" cTooltipPlacement=\"top\"class=\"me-1\" color=\"secondary\">$1</button>"
+		],
+		"description": "Tool Tips CoreUI"
+	},
+	"Icon": {
+		"prefix": "c-icon",
+		"body": [
+			"<svg [cIcon]=\"icons.cilList\" size=\"xl\"></svg>$0"
+		],
+		"description": "Icon CoreUI"
+	},
+	"Form": {
+		"prefix": "c-icon",
+		"body": [
+			"<form cForm>",
+			"  <div class=\"mb-3\">",
+			"    <label cLabel for=\"exampleFormControlInput1\">Email address</label>",
+			"    <input cFormControl id=\"exampleFormControlInput1\" placeholder=\"name@example.com\" type=\"email\"/>",
+			"  </div>",
+			"  <div class=\"mb-3\">",
+			"    <label cLabel for=\"exampleFormControlTextarea1\">Example textarea</label>",
+			"    <textarea cFormControl id=\"exampleFormControlTextarea1\" rows=\"3\"></textarea>",
+			"  </div>",
+			"</form>$0"
+		],
+		"description": "Form CoreUI"
+	},
+	"Select": {
+		"prefix": "c-slect",
+		"body": [
+			"<select aria-label=\"Default select example\" cSelect>",
+			"  <option value=\"1\">One</option>",
+		  	"</select>$0"
+		],
+		"description": "Select CoreUI"
+	},
+	"MultiSelect": {
+		"prefix": "c-multiselect",
+		"body": [
+			"<c-multi-select selectionType=\"text\">",
+			"  <c-multi-select-option>Angular</c-multi-select-option>",
+			"  <c-multi-select-option disabled>Bootstrap</c-multi-select-option>",
+			"  <c-multi-select-option>React.js</c-multi-select-option>",
+			"  <c-multi-select-option>Vue.js</c-multi-select-option>",
+		  	"</c-multi-select>$0"
+		],
+		"description": "MultiSelect CoreUI"
+	},
+	"Check": {
+		"prefix": "c-check",
+		"body": [
+			"<c-form-check>",
+			"  <input cFormCheckInput id=\"checkOne\" type=\"checkbox\"/>",
+			"  <label cFormCheckLabel for=\"checkOne\">$0</label>",
+		  "</c-form-check>$0"
+		],
+		"description": "Check CoreUI"
+	},
+	"Radio": {
+		"prefix": "c-radio",
+		"body": [
+			"<c-form-check>",
+			"  <input cFormCheckInput value=\"one\" type=\"radio\" name=\"flexRadioDefault\"/>",
+			"  <label cFormCheckLabel for=\"checkOne\">$0</label>",
+		  "</c-form-check>$0"
+		],
+		"description": "Radio CoreUI"
+	},
+	"Switch": {
+		"prefix": "c-switch",
+		"body": [
+			"<c-form-check [switch]=\"true\">",
+			"  <input cFormCheckInput id=\"checkOne\" type=\"checkbox\"/>",
+			"  <label cFormCheckLabel for=\"checkOne\">$0</label>",
+		  "</c-form-check>$0"
+		],
+		"description": "Switch CoreUI"
+	},
+
+	"Input float label": {
+		"prefix": "c-input-float-label",
+		"body": [
+			"<div [cFormFloating]=\"true\" class=\"mb-3\">",
+			"  <input cFormControl id=\"floatingInput\" placeholder=\"name@example.com\" type=\"email\" />",
+			"  <label cLabel for=\"floatingInput\">Email address</label>",
+			"</div>$0"
+		],
+		"description": "Input float CoreUI"
+	}
+}
