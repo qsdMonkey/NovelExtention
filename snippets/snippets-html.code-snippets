@@ -168,7 +168,7 @@
 	"Tool Tips": {
 		"prefix": "c-tool-tip",
 		"body": [
-			"<button cButton cTooltip=\"$2\" cTooltipPlacement=\"top\"class=\"me-1\" color=\"secondary\">$1</button>"
+			"<button cButton cTooltip=\"$0\" cTooltipPlacement=\"top\"class=\"me-1\" color=\"secondary\"></button>"
 		],
 		"description": "Tool Tips CoreUI"
 	},

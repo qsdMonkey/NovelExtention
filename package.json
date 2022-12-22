@@ -13,11 +13,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": "'javascript'",
+        "language": "javascript",
         "path": "./snippets/snippets-js.code-snippets"
       },
        {
-        "language": "'html'",
+        "language": "html",
         "path": "./snippets/snippets-html.code-snippets"
       }
     ]
